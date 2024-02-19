@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {background-image: url("https://www.toptal.com/designers/subtlepatterns/uploads/moroccan-flower-dark.png");}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+}
+
+header {
+    background-color: cornflowerblue;
+    border-bottom: 5px solid white;
+    padding: 15px 0px 20px;
+    text-align: center;
+}
+
+h1 {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    color: navy;
+}
+
+nav {
+    width: 45%;
+    display: flex;
+    flex-direction: row;
+    flex-basis: auto;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: navy;
+    margin: 0px 10px 0px;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-right: 3px solid white;
+    padding: 10px 15px 10px 0px;
+}
+
+nav a:last-child {
+    border-right: none;
+  }
+
+main {
+    display: flex;
+    flex-grow: 2;
+    flex-wrap: wrap;
+    width: 70%;
+    margin: 10px 25px 10px 5px;
+    background-color: white;
+    padding: 10px;
+}
+
+main h2 {
+    margin-bottom: 10px;
+    border-bottom: 3px solid cornflowerblue;
+}
+
+aside {
+    display: flex;
+    width: 25%;
+    height: 25%;
+    background-color: white;
+    margin: 10px 5px 10px 25px;
+    padding: 10px;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    text-align: center ;
+}
+
+aside h2 {
+    text-align: center;
+    border-bottom: 3px solid cornflowerblue;
+    margin-bottom: 10px;
+}
+
+aside a {
+    display: flex;
+    align-items: flex-start;
+    padding: 0px 5px;
+}
+
+p {
+    margin: 15px 0px;
+    padding: 5px;
+    line-height: 140%;
+}
+
+.indent {
+    text-indent: 30px;
+}
+
+.headshot {
+    float: left; 
+    margin: 15px 20px 0px 20px;
+    box-shadow: 10px 10px 5px gray;
+}
+
+footer {
+    text-align: center;
+    font-weight: bold;
+    border-top: 5px solid white;
+    background-color: cornflowerblue;
+    margin: 0px;
+    padding: 0px 0px 25px; 
+}
