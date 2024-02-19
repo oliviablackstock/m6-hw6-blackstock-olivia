@@ -21,6 +21,7 @@ header {
 
 h1 {
     width: 50%;
+    margin: 10px 10px;
     display: flex;
     flex-direction: row;
     color: navy;
@@ -51,13 +52,19 @@ nav a:last-child {
   }
 
 main {
-    display: flex;
-    flex-grow: 2;
-    flex-wrap: wrap;
+    display: flex;  
+    flex-direction: row;
+    flex-basis: 500px;
     width: 70%;
-    margin: 10px 25px 10px 5px;
+    margin: 10px 25px 10px 100px;
     background-color: white;
     padding: 10px;
+}
+
+.flex-container {
+    display: flex;
+    width: fit-content;
+    align-items: center;
 }
 
 main h2 {
@@ -67,14 +74,14 @@ main h2 {
 
 aside {
     display: flex;
+    flex-direction: column;
+    margin: 10px 30px;
+    padding: 10px;
     width: 25%;
     height: 25%;
     background-color: white;
-    margin: 10px 5px 10px 25px;
-    padding: 10px;
     align-items: flex-start;
-    flex-wrap: wrap;
-    text-align: center ;
+    text-align: center;
 }
 
 aside h2 {
@@ -85,8 +92,8 @@ aside h2 {
 
 aside a {
     display: flex;
-    align-items: flex-start;
-    padding: 0px 5px;
+    align-items: center;
+    padding: 10px 5px;
 }
 
 p {
